@@ -21,8 +21,8 @@ function currentLine(katzDeliLine){//function to guage the current line in the d
   }
   
   if(katzDeliLine.length>0){//check to see if there is a line. If there is then return with how many/who is in the line.
-    return 'The line is currently: '+ arr.join(' ')
+    return 'The line is currently: '+ arr.join(', ')
   } else{//if there is no line then return line is empty
-    return 'The line is currently empty'
+    return 'The line is currently empty.'
   }
 }
