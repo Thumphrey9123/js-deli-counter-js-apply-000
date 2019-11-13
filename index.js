@@ -16,7 +16,7 @@ function nowServing(katzDeliLine){//this function will check if there is a line.
 
 function currentLine(katzDeliLine){//function to guage the current line in the deli
   let arr = [] //created a new array to push mutated strings into
-  for(i=0;i<katzDeliLine.length;i++){//this loop will go through the line array and number the people in line
+  for(let i=0;i<katzDeliLine.length;i++){//this loop will go through the line array and number the people in line
     arr.push(`${i+1}. ${katzDeliLine[i]}`)
   }
   
