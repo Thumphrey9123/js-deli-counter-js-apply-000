@@ -1,7 +1,7 @@
 let katzDeliLine = [];//global array as multiple functions need information from this array
  
-function takeANumber(line, name){//this function will add someone's name to the line list, and greet them with where they are in the line
-    line.push(name);//adds the persons name to the global line array
+function takeANumber(katzDeliLine, name){//this function will add someone's name to the line list, and greet them with where they are in the line
+  katzDeliLine.push(name);//adds the persons name to the global line array
 return 'Welcome, '+name+'. You are number '+katzDeliLine.length+' in line.'
 }
 
