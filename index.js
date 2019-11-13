@@ -8,9 +8,9 @@ return 'Welcome, '+name+'. You are number '+katzDeliLine.length+' in line.'
 function nowServing(katzDeliLine){//this function will check if there is a line. If there is, then they will serve the first person and remove them from the line. If there is no line they will announce there is nobody to be served. 
   if(katzDeliLine.length>0){//checks line and removes the first person in line 
    let firstInLine = katzDeliLine.shift()//removes first name in line and ties it to a variable
-   return 'Currently serving '+firstInLine 
+   return 'Currently serving '+firstInLine +'.'
   } else{//returns string if katzDeliLine is 0
-    return 'There is nobody waiting to be served.'
+    return 'There is nobody waiting to be served!'
   }
 }
 
